@@ -13,8 +13,8 @@ class Game{
 
 	init(){					
 		this.snakes[0] = new Snake(this.ctxSnake, "Bibhuti", 0);		
-		for(var i=0; i<25; i++) this.addSnake(ut.randomName(), 100);		
-		this.generateFoods(3000);			
+		for(var i=0; i<45; i++) this.addSnake(ut.randomName(), 100);		
+		this.generateFoods(7000);			
 	}
 
 	draw(){		
